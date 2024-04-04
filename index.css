@@ -30,6 +30,11 @@ h3 { /* Accountant */
   text-align: justify;
 }
 
+.smallText p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+}
+
 /* End Family */
 
 /* Colors */
@@ -180,6 +185,12 @@ page[size="A4"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.45cm;
+}
+
+.skill .rating {
+  font-size: 0.30cm;
 }
 
 .bottomLineSeparator {
