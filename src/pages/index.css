@@ -128,11 +128,8 @@ page {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
-}
-
-page[size="A4"] {  
   width: 21cm;
-  height: 29.7cm; 
+  height: 29.7cm;
 }
 
 @page {
@@ -223,11 +220,16 @@ page[size="A4"] {
 .workExperience>ul>li {
   position: relative;
   margin: 0;
-  padding-bottom: 0.5cm;
+  padding-bottom: 0.3cm;
   padding-left: 0.5cm;
 }
 
-.workExperience>ul>li:before {
+.workExperience>ul>li ul {
+  padding-left: 0.5cm;
+  list-style-type: disc;
+}
+
+.workExperience>ul>li:not([last]):before {
   background-color: #b8abab;
   width: 0.05cm;
   content: '';
@@ -268,9 +270,6 @@ page[size="A4"] {
   margin-bottom: 0;
 }
 
-.workExperience>ul>li ul {
-  padding-left: 0.5cm;
-  list-style-type: disc;
-}
+
 /*End Layout*/
 
